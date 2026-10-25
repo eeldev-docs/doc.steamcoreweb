@@ -108,5 +108,9 @@ if (FJsonSerializer::Deserialize(Reader, Root) && Root.IsValid())
 | `UWebSteamNews` | `SteamNews/WebSteamNews.h` |
 | `UWebRemoteStorage` | `SteamRemoteStorage/WebRemoteStorage.h` |
 | `UWebSteamUser` | `SteamUser/WebSteamUser.h` |
+| `UWebSteamWebAPIUtil` | `WebAPIUtil/WebSteamWebAPIUtil.h` |
+| `UWebStoreService` | `StoreService/WebStoreService.h` |
 | `UWebUserAuth` | `SteamUserAuth/WebUserAuth.h` |
 | `UWebUserStats` | `SteamUserStats/WebUserStats.h` |
+| `UWebWishlistService` | `WishlistService/WebWishlistService.h` |
+| `UWebWorkshop` | `Workshop/WebWorkshop.h` |

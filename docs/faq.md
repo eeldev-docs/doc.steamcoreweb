@@ -15,7 +15,7 @@ Steam doesn't accept the key. Check that:
 Try a public call such as **Get Number Of Current Players** first. If it works, the plugin and network are fine and the problem is the key.
 
 ## A call returns 404 Not Found
-Steam doesn't have the method anymore. See [Methods removed by Steam](/docfiles/reference/interfaces#methods-removed-by-steam) for the known ones and their replacements.
+Steam doesn't have the method anymore, or the interface name or version is wrong. Turn on **Debugging** to see the URL. See [Methods removed by Steam](/docfiles/reference/interfaces#methods-removed-by-steam) for methods that Steam has removed and their replacements.
 
 ## Was Successful is true, but the response contains an error
 **Was Successful** only tells you that Steam responded. Steam reports errors in the response, for example `"result": 2`, an `error` field or an `errordesc` field. Check the response with the [JSON helpers](/docfiles/reference/utilities).
